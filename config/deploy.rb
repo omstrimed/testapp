@@ -4,7 +4,7 @@ server '164.90.165.189', port: 22, roles: [:web, :app, :db], primary: true
 set :repo_url,        'git@github.com:omstrimed/testapp.git'
 set :application,     'testapp' 
 
-set :rbenv_ruby,      '3.0.2'
+set :rbenv_ruby,      '3.1.3'
 # set :rbenv_ruby_dir,  '/home/ubuntu/.rbenv/versions/3.0.2'
 set :default_env, { path: "~/.rbenv/shims:~/.rbenv/bin:$PATH" }
 
