@@ -33,7 +33,7 @@ append :rbenv_map_bins, 'puma', 'pumactl'
 
 ## Defaults:
 # set :scm,           :git
-# set :branch,        :main
+  set :branch,        :main
 # set :format,        :pretty
 # set :log_level,     :debug
 # set :keep_releases, 5
