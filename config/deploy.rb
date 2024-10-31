@@ -1,7 +1,7 @@
 # Change these
 server '164.90.165.189', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:omstrimed/testapp.git'
+set :repo_url, 'https://github.com/omstrimed/testapp.git'
 set :application,     'testapp' 
 
 set :rbenv_ruby,      '3.1.3'
