@@ -4,9 +4,9 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 
-equire "capistrano/rails"
-equire "capistrano/bundler"
-equire "capistrano/rbenv"
+require "capistrano/rails"
+require "capistrano/bundler"
+require "capistrano/rbenv"
 
 # Load the SCM plugin appropriate to your project:
 #
