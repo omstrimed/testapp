@@ -2,7 +2,9 @@
 lock "~> 3.19.1"
 
 set :application, "testapp"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "https://github.com/omstrimed/testapp.git"
+set :git_http_username, 'oms.trimed'
+set :git_http_password, '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'
 
 # Default value for :format is :airbrussh.
 # You can configure the Airbrussh format using :format_options.

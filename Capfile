@@ -1,4 +1,5 @@
 # Load DSL and set up stages
+require 'stringio'
 require "capistrano/setup"
 
 # Include default deployment tasks
